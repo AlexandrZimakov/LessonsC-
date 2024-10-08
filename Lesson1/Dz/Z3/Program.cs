@@ -2,3 +2,13 @@
 //оно положительным (больше нуля), отрицательным (меньше нуля) или нулём.
 
 
+Console.Write("Введите любое число: ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+if(a > 0){
+    Console.WriteLine("Число является положительным");
+}else if(a < 0){
+    Console.WriteLine("Число является отрицательным");
+}else{
+    Console.WriteLine("Число равно нулю");
+}
